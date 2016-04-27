@@ -1,7 +1,7 @@
 class MultipleAdder
 
-	def add()
-		max  = gets.chomp
+	def add(arg)
+		max  = arg
 		sum = 0
 		max.to_i.times do |num|
 			
@@ -16,4 +16,7 @@ class MultipleAdder
 end
 
 adder = MultipleAdder.new
-adder.add
+adder.add(1000)
+adder.add(500)
+
+
