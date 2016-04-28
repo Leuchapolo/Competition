@@ -11,7 +11,7 @@ class MultipleAdder
 
 
 		end
-		puts sum
+		sum
 	end 
 end
 
